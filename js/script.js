@@ -1,13 +1,6 @@
+let move = document.getQuerySelector('#move');
+move.addEventListener("mousemove", (event)=>{
+   let move = (event.clientX * 3);
+   move.style.transform = `translateX(${move}%)`;
 
-let moviment = document.querySelector('#move');
-
-   moviment.addEventListener('mousemove', (event) => {
-
-   let move2 = (event.clientX * 0.002);
-
-   move.style.transform = `translateX(-${move2}%)`;
-   
-
-});
-
-        
+})
