@@ -1,2 +1,2 @@
 # Web-projects
-Just starting with web development and this is the first code, let's improve every day! 
+Just starting with web development, let's improve every day! 
